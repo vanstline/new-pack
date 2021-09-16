@@ -12,7 +12,7 @@
     "dev": "concurrently \"wait-on http://localhost:8888 && npm run ele\"",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "release": "cross-env GH_TOKEN=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 electron-builder",
+    "release": "cross-env GH_TOKEN=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 electron-builder",
     "prerelease": "npm run buildMain",
     "prepack": "npm run buildMain",
     "predist": "npm run buildMain"
