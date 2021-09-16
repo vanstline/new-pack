@@ -7,7 +7,7 @@
     "name": "Tao"
   },
   "scripts": {
-    "buildMain": "dotenv -e env/.env.prod webpack",
+    "buildMain": "dotenv -e env/.env.test webpack",
     "ele": "dotenv -e env/.env.prod electron .",
     "dev": "concurrently \"wait-on http://localhost:8888 && npm run ele\"",
     "pack": "electron-builder --dir",
