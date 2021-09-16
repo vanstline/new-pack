@@ -35,7 +35,7 @@ app.on('ready', () => {
     dialog.showMessageBox(
       {
         type: 'info',
-        title: '应用有新的版本',
+        title: '应用有新的版本~~',
         message: '发现新版本, 是否现在更新?',
         buttons: [ '是', '否' ],
       },

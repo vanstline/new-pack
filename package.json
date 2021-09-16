@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "main": "main.js",
   "author": {
@@ -12,7 +12,7 @@
     "dev": "concurrently \"wait-on http://localhost:8888 && npm run ele\"",
     "pack": "electron-builder --dir",
     "dist": "electron-builder",
-    "release": "cross-env GH_TOKEN=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 electron-builder",
+    "release": "cross-env GH_TOKEN=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 electron-builder",
     "prerelease": "npm run buildMain",
     "prepack": "npm run buildMain",
     "predist": "npm run buildMain"
